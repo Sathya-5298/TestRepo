@@ -21,7 +21,7 @@ public class ReverseArray {
 		int j = str.length - 1;
 		String temp = "";
 		
-		for(int i = 0; i <= (str.length -1)/2; i++)
+		for(int i = 0; i <= (str.length - 1)/2; i++)
 		{
 			temp = str[i];
 			str[i] = str[j];

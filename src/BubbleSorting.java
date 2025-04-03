@@ -19,9 +19,10 @@ public class BubbleSorting {
 				}
 			}
 		}
-		for(int i = 0; i < a.length; i++)
+		
+		for (int j : a) 
 		{
-			System.out.println(a[i]);
+			System.out.println(j);
 		}
 	}
 

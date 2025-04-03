@@ -18,6 +18,7 @@ public class FindDuplicates
 			}
 		}
 		System.out.println("Duplicates are: " + duplicate);
+		System.out.println(unique);
 	}
 
 }
