@@ -26,9 +26,7 @@ public class CountDigitOccurenceIsString
 		
 		str = str.replace(" ", "");
 		
-		char[] strArray = str.toCharArray();
-		
-		for(char c : strArray)
+		for(char c : str.toCharArray())
 		{
 			if(charMap.containsKey(c))
 			{
